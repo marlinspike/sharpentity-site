@@ -3,16 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Architecture &amp; Design - SharpEntity LLC</title>
-  <meta name="description" content="SharpEntity provides solution architecture and design guidance to identify disruptive opportunities with the right technologies.">
-  <meta property="og:title" content="Architecture &amp; Design - SharpEntity LLC">
-  <meta property="og:description" content="Find the next disruptive market using the most opportune technologies with SharpEntity.">
+  <title>Architecture &amp; Design — SharpEntity LLC</title>
+  <meta name="description" content="SharpEntity provides enterprise solution architecture and design — identifying disruptive opportunities with the right technologies at the right time.">
+  <meta property="og:title" content="Architecture &amp; Design — SharpEntity LLC">
+  <meta property="og:description" content="Enterprise-grade architecture that identifies disruptive market opportunities with the right technologies.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/images/se-transparent-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Instrument+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="container nav-shell">
       <a class="brand" href="index.html" aria-label="SharpEntity Home">
@@ -21,50 +25,78 @@
       <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav class="site-nav" id="site-nav" data-site-nav aria-label="Primary">
         <ul class="nav-list">
-          <li class="nav-item">
-            <details open>
-              <summary>Our Services</summary>
-              <ul class="submenu">
-                <li><a href="generative-ai-solutions.html">Generative AI Solutions</a></li>
-                <li><a href="cloud-migration-and-modernization.html">Cloud Migration and Modernization</a></li>
-                <li><a href="architecture--design.html" aria-current="page">Architecture &amp; Design</a></li>
-                <li><a href="strategic-consulting.html">Strategic Consulting</a></li>
-              </ul>
-            </details>
-          </li>
-          <li class="nav-item">
-            <details>
-              <summary>About</summary>
-              <ul class="submenu">
-                <li><a href="core-values.html">Core Values</a></li>
-              </ul>
-            </details>
-          </li>
-          <li class="nav-item"><a href="contact.html">Contact</a></li>
+          <li><a class="nav-link" href="generative-ai-solutions.html">AI Solutions</a></li>
+          <li><a class="nav-link" href="cloud-migration-and-modernization.html">Cloud</a></li>
+          <li><a class="nav-link" href="architecture--design.html" aria-current="page">Architecture</a></li>
+          <li><a class="nav-link" href="strategic-consulting.html">Strategy</a></li>
+          <li class="nav-separator" aria-hidden="true"></li>
+          <li><a class="nav-link" href="core-values.html">Values</a></li>
+          <li><a class="nav-cta" href="contact.html">Contact&nbsp;&rarr;</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero" style="--hero-webp: url('assets/images/bg-brick-texture.webp'); --hero-jpg: url('assets/images/bg-brick-texture.jpg');">
+    <section class="hero hero--page">
+      <div class="hero-bg-img" style="background-image: url('assets/images/bg-brick-texture.webp');" role="img" aria-label="Architectural texture"></div>
       <div class="container">
-        <div class="hero-card" data-reveal="1">
+        <div class="hero-content">
           <p class="hero-kicker">Our Services</p>
-          <h1>Solutions Architecture &amp; Design</h1>
+          <h1>Solutions Architecture <em>&amp; Design</em></h1>
+          <p class="hero-sub">Finding the next disruptive market opportunity using the most opportune technologies — that's your challenge. We make it possible.</p>
         </div>
       </div>
     </section>
 
-    <section class="container">
-      <div class="panel" data-reveal="2">
-        <p class="lead">Challenged to find the next disruptive market using the most opportune technologies is your challenge. We're there to make it possible.</p>
+    <section class="section">
+      <div class="container">
+        <div class="content-panel" data-reveal="1">
+          <p class="lead">At SharpEntity, we design systems that don't just solve today's problems — they anticipate tomorrow's. Our architecture practice combines deep technical expertise with strategic business thinking to create solutions that are robust, scalable, and future-proof.</p>
+
+          <h3>Technology Selection</h3>
+          <p>Choosing the right technology stack is critical. We evaluate your requirements against the full landscape of available tools, platforms, and frameworks — cutting through vendor hype to find what actually works for your use case, scale, and team.</p>
+
+          <h3>System Design &amp; Integration</h3>
+          <p>Modern systems are rarely monolithic. We design distributed architectures that integrate cleanly with your existing ecosystem — whether that's legacy systems, third-party APIs, or emerging platforms. Every integration point is designed for reliability, security, and observability.</p>
+
+          <h3>Scalability &amp; Performance</h3>
+          <p>We architect for the load you have today and the growth you plan for tomorrow. From auto-scaling cloud-native patterns to event-driven architectures, our designs handle spikes gracefully and operate efficiently at steady state.</p>
+
+          <h3>Security by Design</h3>
+          <p>Security isn't a phase — it's a design principle. We embed zero-trust patterns, encryption at rest and in transit, identity management, and compliance controls directly into the architecture from day one.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container">
+        <div data-reveal="1">
+          <p class="section-label">Next Step</p>
+          <h2 class="section-heading">Need architecture that scales with your ambition?</h2>
+          <a href="contact.html" class="btn btn-primary btn-arrow">Let's Design Together</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container"><strong>SharpEntity LLC</strong><br>&copy; 2026, All Rights Reserved</div>
+    <div class="container">
+      <div class="footer-inner">
+        <a href="index.html" class="footer-brand" aria-label="SharpEntity Home">
+          <img src="assets/images/se-transparent-logo.png" alt="SharpEntity LLC" width="130" height="35">
+        </a>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="generative-ai-solutions.html">AI Solutions</a>
+          <a href="cloud-migration-and-modernization.html">Cloud</a>
+          <a href="architecture--design.html">Architecture</a>
+          <a href="strategic-consulting.html">Strategy</a>
+          <a href="core-values.html">Values</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <p class="footer-copy">&copy; 2026 SharpEntity LLC. All Rights Reserved.</p>
+      </div>
+    </div>
   </footer>
 
   <script src="assets/js/main.js" defer></script>

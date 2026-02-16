@@ -4,6 +4,8 @@ AGENT_INSTRUCTIONS.md
 # OS files
 .DS_Store
 Thumbs.db
+.claude/
+CLAUDE.md
 
 # Editor settings
 .vscode/

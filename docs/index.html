@@ -3,16 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SharpEntity LLC - Home</title>
-  <meta name="description" content="SharpEntity delivers Generative AI and cloud solutions tailored to modern digital transformation needs.">
-  <meta property="og:title" content="SharpEntity LLC">
-  <meta property="og:description" content="At SharpEntity, we are pioneers in delivering cutting-edge Generative AI and Cloud solutions tailored to meet the dynamic needs of today's digital landscape.">
+  <title>SharpEntity LLC — Where Strategy Meets Engineering</title>
+  <meta name="description" content="SharpEntity delivers AI, Cloud, and Architecture expertise that elevates companies and teams — from the boardroom to the codebase.">
+  <meta property="og:title" content="SharpEntity LLC — Where Strategy Meets Engineering">
+  <meta property="og:description" content="AI, Cloud, and Architecture expertise that elevates companies and teams — from the boardroom to the codebase.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/images/se-transparent-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Instrument+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="container nav-shell">
       <a class="brand" href="index.html" aria-label="SharpEntity Home">
@@ -21,75 +25,145 @@
       <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav class="site-nav" id="site-nav" data-site-nav aria-label="Primary">
         <ul class="nav-list">
-          <li class="nav-item">
-            <details>
-              <summary>Our Services</summary>
-              <ul class="submenu">
-                <li><a href="generative-ai-solutions.html">Generative AI Solutions</a></li>
-                <li><a href="cloud-migration-and-modernization.html">Cloud Migration and Modernization</a></li>
-                <li><a href="architecture--design.html">Architecture &amp; Design</a></li>
-                <li><a href="strategic-consulting.html">Strategic Consulting</a></li>
-              </ul>
-            </details>
-          </li>
-          <li class="nav-item">
-            <details>
-              <summary>About</summary>
-              <ul class="submenu">
-                <li><a href="core-values.html">Core Values</a></li>
-              </ul>
-            </details>
-          </li>
-          <li class="nav-item"><a href="contact.html">Contact</a></li>
+          <li><a class="nav-link" href="generative-ai-solutions.html">AI Solutions</a></li>
+          <li><a class="nav-link" href="cloud-migration-and-modernization.html">Cloud</a></li>
+          <li><a class="nav-link" href="architecture--design.html">Architecture</a></li>
+          <li><a class="nav-link" href="strategic-consulting.html">Strategy</a></li>
+          <li class="nav-separator" aria-hidden="true"></li>
+          <li><a class="nav-link" href="core-values.html">Values</a></li>
+          <li><a class="nav-cta" href="contact.html">Contact&nbsp;&rarr;</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero" style="--hero-webp: url('assets/images/bg-mountain-hike.webp'); --hero-jpg: url('assets/images/bg-mountain-hike.jpg');">
+    <!-- ══ HERO ══ -->
+    <section class="hero">
       <div class="container">
-        <div class="hero-card" data-reveal="1">
+        <div class="hero-content">
           <p class="hero-kicker">SharpEntity LLC</p>
-          <h1>AI Experts</h1>
+          <h1>Where Strategy Meets <em>Engineering.</em></h1>
+          <p class="hero-sub">We deliver AI, Cloud, and Architecture expertise that elevates companies and teams — from the boardroom to the codebase.</p>
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-primary btn-arrow">Start a Conversation</a>
+            <a href="core-values.html" class="btn btn-ghost">Our Approach</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="container">
-      <div class="panel" data-reveal="2">
-        <p class="lead">At SharpEntity, we are pioneers in delivering cutting-edge Generative AI and Cloud solutions tailored to meet the dynamic needs of today's digital landscape. Founded and led by visionary leaders with extensive experience in cloud-native computing and AI, SharpEntity stands at the forefront of technological innovation.</p>
-        <p class="lead">SharpEntity offers a suite of services designed to drive your digital transformation journey. Our expertise spans across Generative AI, Cloud Computing, DevSecOps, and multi-cloud environments, ensuring we provide holistic and impactful solutions for your business.</p>
+    <!-- ══ SERVICES ══ -->
+    <section class="section section--border">
+      <div class="container">
+        <div data-reveal="1">
+          <p class="section-label">What We Do</p>
+          <h2 class="section-heading">Expertise that spans the full stack — and the full org chart.</h2>
+          <p class="section-sub">From generative AI strategy to cloud-native architecture, we solve problems at the intersection of technology and business.</p>
+        </div>
+
+        <div class="card-grid" data-reveal="2">
+          <article class="service-card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3><a href="generative-ai-solutions.html">Generative AI Solutions</a></h3>
+            <p>Pioneering GenAI across cloud and disconnected edge environments — resilient, adaptive, and production-ready.</p>
+            <a href="generative-ai-solutions.html" class="card-link">Learn more &rarr;</a>
+          </article>
+
+          <article class="service-card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+            </div>
+            <h3><a href="cloud-migration-and-modernization.html">Cloud Migration</a></h3>
+            <p>Transition legacy systems to secure, scalable Azure and AWS environments with zero-downtime strategies.</p>
+            <a href="cloud-migration-and-modernization.html" class="card-link">Learn more &rarr;</a>
+          </article>
+
+          <article class="service-card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+            </div>
+            <h3><a href="architecture--design.html">Architecture &amp; Design</a></h3>
+            <p>Enterprise-grade solution architecture that identifies disruptive market opportunities with the right technologies.</p>
+            <a href="architecture--design.html" class="card-link">Learn more &rarr;</a>
+          </article>
+
+          <article class="service-card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2v20"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3><a href="strategic-consulting.html">Strategic Consulting</a></h3>
+            <p>Align technology strategy with business goals for sustainable growth — from roadmap to results.</p>
+            <a href="strategic-consulting.html" class="card-link">Learn more &rarr;</a>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="container" aria-label="Services">
-      <div class="panel" data-reveal="3">
-        <h2>Our Services</h2>
-        <div class="card-grid">
-          <article class="service-card">
-            <h3><a href="generative-ai-solutions.html">Generative AI Solutions</a></h3>
-            <p>We are GenAI pioneers across cloud and disconnected edge environments.</p>
-          </article>
-          <article class="service-card">
-            <h3><a href="cloud-migration-and-modernization.html">Cloud Migration and Modernization</a></h3>
-            <p>Transition legacy systems to secure, scalable Azure and AWS cloud environments.</p>
-          </article>
-          <article class="service-card">
-            <h3><a href="architecture--design.html">Architecture &amp; Design</a></h3>
-            <p>Find the right disruptive market opportunities with the right technologies.</p>
-          </article>
-          <article class="service-card">
-            <h3><a href="strategic-consulting.html">Strategic Consulting</a></h3>
-            <p>Align IT strategy with business goals for sustainable growth.</p>
-          </article>
+    <!-- ══ DIFFERENTIATORS ══ -->
+    <section class="section section--border">
+      <div class="container">
+        <div data-reveal="1">
+          <p class="section-label">Why SharpEntity</p>
+          <h2 class="section-heading">Built different. By design.</h2>
+        </div>
+
+        <div class="diff-grid" data-reveal="2">
+          <div class="diff-item">
+            <p class="diff-number">01</p>
+            <h3>C-Suite to CLI</h3>
+            <p>We speak both languages fluently. Whether presenting to a board of directors or debugging a Kubernetes cluster, we operate with equal precision.</p>
+          </div>
+          <div class="diff-item">
+            <p class="diff-number">02</p>
+            <h3>AI-Native Thinking</h3>
+            <p>Generative AI isn't bolted on — it's built in from day one. We architect solutions where intelligence is a first-class citizen, not an afterthought.</p>
+          </div>
+          <div class="diff-item">
+            <p class="diff-number">03</p>
+            <h3>Architecture at Scale</h3>
+            <p>Enterprise-grade from the start. We design systems that perform under pressure, scale with demand, and remain maintainable as they grow.</p>
+          </div>
+          <div class="diff-item">
+            <p class="diff-number">04</p>
+            <h3>Delivery, Not Decks</h3>
+            <p>We build, not just advise. Our teams ship production systems alongside yours — bringing strategy to life in working code and measurable outcomes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ CTA ══ -->
+    <section class="cta-band">
+      <div class="container">
+        <div data-reveal="1">
+          <p class="section-label">Get Started</p>
+          <h2 class="section-heading">Ready to elevate your technology strategy?</h2>
+          <a href="contact.html" class="btn btn-primary btn-arrow">Let's Talk</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container"><strong>SharpEntity LLC</strong><br>&copy; 2026, All Rights Reserved</div>
+    <div class="container">
+      <div class="footer-inner">
+        <a href="index.html" class="footer-brand" aria-label="SharpEntity Home">
+          <img src="assets/images/se-transparent-logo.png" alt="SharpEntity LLC" width="130" height="35">
+        </a>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="generative-ai-solutions.html">AI Solutions</a>
+          <a href="cloud-migration-and-modernization.html">Cloud</a>
+          <a href="architecture--design.html">Architecture</a>
+          <a href="strategic-consulting.html">Strategy</a>
+          <a href="core-values.html">Values</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <p class="footer-copy">&copy; 2026 SharpEntity LLC. All Rights Reserved.</p>
+      </div>
+    </div>
   </footer>
 
   <script src="assets/js/main.js" defer></script>
